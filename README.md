@@ -1,8 +1,10 @@
 # ALFAYOLANS FRESH MARKET
-## Web Programming 2
+## BINA SARANA INFORMATIKA
+## BSI JATIWARINGIN
+### Web Programming 2
 
 ## Tentang Project
-  Comming Soon!
+  Coming Soon!
 
 ## Nama Kelompok
 * Faizal Ardian Putra
