@@ -1,11 +1,10 @@
-# ALFAYOLANS
-## FRESH MARKET
-### Web Programming 2
+# ALFAYOLANS FRESH MARKET
+## Web Programming 2
 
 ## Tentang Project
   Comming Soon!
 
-## Kelompok
+## Nama Kelompok
 * Faizal Ardian Putra
 * Anisa Cahyani
 * Nurcholis
