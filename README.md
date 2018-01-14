@@ -1,7 +1,9 @@
 # ALFAYOLANS FRESH MARKET
-## BINA SARANA INFORMATIKA
-## BSI JATIWARINGIN
-### Web Programming 2
+
+## Daftar Isi
+* [Tentang Project](#tentang-project)
+* [Nama Kelompok](#nama-kelompok)
+* [Bahasa Pemograman](#bahasa-pemograman)
 
 ## Tentang Project
   Coming Soon!
