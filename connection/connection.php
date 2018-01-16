@@ -8,7 +8,8 @@ $kon = mysqli_connect($host,$user,$pass,$db);
 if(!$kon){
 	$kon = mysqli_connect($host,$user,"",$db);
 	if (!$kon) {
-			echo "Gagal Koneksi ke Database. Cek Password di connection.php";
+			echo "Server Maintenance";
+			exit();
 	}
 }
 ?>

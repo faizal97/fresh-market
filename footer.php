@@ -1,1 +1,1 @@
-<h2>Isi dari footer disini</h2> 
+<h2>FOOTER</h2> 

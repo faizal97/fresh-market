@@ -1,1 +1,1 @@
-<h2>Isi dari konten disini</h2> 
+<h2>KONTEN</h2> 

@@ -1,3 +1,7 @@
+<?php 
+include 'connection/connection.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +15,7 @@
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<!-- Project's Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="/style/index.css">
+	<link rel="stylesheet" type="text/css" href="style/index.css">
 </head>
 <body>
 	<div id='site-wrapper'>
