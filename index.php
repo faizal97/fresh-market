@@ -18,6 +18,9 @@ include 'connection/connection.php';
 	<link rel="stylesheet" type="text/css" href="style/index.css">
 </head>
 <body>
+	<div class="parallax">
+		<div class="caption" "><span class="border">WELCOME TO FRESH MARKET</span></div>
+	</div>
 	<div id='site-wrapper'>
 		<div id='head-wrapper'>
 		<?php
