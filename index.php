@@ -18,42 +18,12 @@ include 'connection/connection.php';
 	<link rel="stylesheet" type="text/css" href="style/index.css">
 </head>
 <body>
-	<div class="parallax">
-		<div class="caption" "><span class="border">WELCOME TO FRESH MARKET</span>
-	</div>
-	<span class="glyphicon glyphicon-chevron-down arrow-down"></span>
-	</div>
 	<div id='site-wrapper'>
-		<div id='head-wrapper'>
-		<?php
-		if(file_exists('header.php')){
-			include 'header.php';
-		}
-		else {
-			echo "Tidak ada file header";
-		}
-		?>
-		</div>
-		<div id='content-wrapper'>
-		<?php
-		if(file_exists('content.php')){
-			include 'content.php';
-		}
-		else {
-			echo "Tidak ada file konten";
-		}
-		?>
-		</div>
-		<footer>
-		<?php
-		if(file_exists('footer.php')){
-			include 'footer.php';
-		}
-		else {
-			echo "Tidak ada file footer";
-		}
-		?>
-		</footer>
+		<?php include 'menu.php' ?>
+		<?php include 'parallax.php' ?>
+		<br><br><br><br>
+		<h1>ini isi dibawah parallax</h1>
+		<br><br>
 	</div>
 
 <!-- jQuery CDN -->
