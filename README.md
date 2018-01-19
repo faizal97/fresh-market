@@ -6,7 +6,7 @@
 * [Bahasa Pemograman](#bahasa-pemograman)
 
 ## Tentang Project
-  Coming Soon!
+  Coming Soon! Segera!
 
 ## Nama Kelompok
 * [Faizal Ardian Putra](https://github.com/faizal97)
