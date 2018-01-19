@@ -10,7 +10,7 @@
 
 ## Nama Kelompok
 * [Faizal Ardian Putra](https://github.com/faizal97)
-* Anisa Cahyani
+* [Anisa Cahyani](https://github.com/niscyn)
 * Nurcholis
 * Aldhan Ernest
 
