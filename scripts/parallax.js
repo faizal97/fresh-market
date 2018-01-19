@@ -2,7 +2,7 @@ let ELEM_ARROW;
 let y;
 function setup() {
 	ELEM_ARROW = select('.arrow-down');
-	arrowDown();
+	arrowDown(ELEM_ARROW);
 	y = 87;
 }
 
@@ -10,8 +10,7 @@ function draw() {
 	animateArrow(ELEM_ARROW,87);
 }
 
-function arrowDown() {
-	let a = ELEM_ARROW;
+function arrowDown(a) {
 	a.mouseOver(()=>{
 	a.style('color','#FFFFFF');
 	});
@@ -30,4 +29,4 @@ const animateArrow = (elem) => {
 	if(y>87){
 		y = 85;
 	}
-}
+};

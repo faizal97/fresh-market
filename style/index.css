@@ -3,10 +3,11 @@
   	opacity: 0.65;
   	background-attachment: fixed;
   	background-position: center;
-  	background-repeat: no-repeat;
+  	background-repeat: repeat-x;
   	background-size: cover;
 	background-image: url("../images/a.jpg");
 	height:700px;
+  width: 100%
 }
 .glyphicon-chevron-down {
 	font-size: 50px;
