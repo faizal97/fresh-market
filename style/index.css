@@ -49,16 +49,13 @@
 }
 
 #head-wrapper {
-	border:solid 2px;
 	height: 200px;
 }
 
 #content-wrapper {
-	border:solid 2px;
 	height: 500px;
 }
 
 footer {
-	border:solid 2px;
 	height: 100px;	
 }
