@@ -1,9 +1,9 @@
  <link rel="stylesheet" type="text/css" href="style/menu.css">
- <nav class="navbar navbar-inverse navbar-fixed-top">
-  <img id="header" src="images/navbar.png" width="100%">
+ <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom">
+  <!-- <img id="header" src="images/navbar.png" width="100%"> -->
   <div class="container-fluid">
     <ul class="nav navbar-nav list-menu">
-     <li class="logo"><img src="images/logo.png" width="10%"></li>
+     <li class="logo"><a href="index.php" style="padding:0"><img src="images/logo.png" width="150px"></a></li>
       <li><a href="#">CUMI</a></li>
       <li><a href="#">IKAN</a></li>
       <li><a href="#">KEPITING</a></li>
@@ -21,7 +21,6 @@
  	  <li><a href="#">LOGIN</a></li>
  	  <li><a href="#">DAFTAR</a></li>
  	</li>
- </li>
     </ul>
   </div>
 </nav>

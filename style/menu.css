@@ -1,5 +1,14 @@
+.navbar {
+	background-image: none;
+}
+.navbar-custom {
+    background-image:url(../images/navbar.png);
+    color:#ffffff;
+    border-radius:0;
+}
+
 .list-menu {
-	padding: 5px;
+	padding:5px;
 	margin-left: 0px;
 	font-size: 13pt;
 	font-weight: bold;
@@ -15,7 +24,7 @@
 	height: 34px;
 }
 .logo{
-	position: absolute;
-	width: 1000px;
-	height: 10px;
+	padding:0;
+	margin-left:90px;
+	margin-right:30px;
 }
