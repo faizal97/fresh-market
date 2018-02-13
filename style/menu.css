@@ -1,9 +1,21 @@
 .list-menu {
-	margin-left: 100px;
+	padding: 5px;
+	margin-left: 0px;
 	font-size: 13pt;
 	font-weight: bold;
 }
 .searchbox {
- height: 25px;
- font-style: italic;
+	display:inline-block;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 20px;
+	height: 7px;
+}
+.searchbox-btn{
+	height: 34px;
+}
+.logo{
+	position: absolute;
+	width: 1000px;
+	height: 10px;
 }
