@@ -1,10 +1,10 @@
 .parallax {
  	position: relative;
-  	opacity: 0.65;
-  	background-attachment: fixed;
-  	background-position: center;
-  	background-repeat: repeat-x;
-  	background-size: cover;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: cover;
 	background-image: url("../images/a.jpg");
 	height:700px;
   width: 100%
@@ -27,16 +27,17 @@
   top: 45%;
   width: 100%;
   text-align: center;
-  /*color: #000;*/
+  color: #000;
 }
 
 
 .caption span.border {
-  /*background-color: #111;*/
-  /*color: #fff;*/
+  background-image:url("../images/navbar.png");
+  color: #fff;
   padding: 18px;
-  font-size: 25px;
+  font-size: 24pt;
   letter-spacing: 10px;
+  border:5px solid white;
 }
 
 

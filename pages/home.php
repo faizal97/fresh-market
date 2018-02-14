@@ -1,5 +1,5 @@
 <div class="parallax">
-	<div class="caption"><span class="border"><img src="images/slogan.png" width="50%"></span>
+	<div class="caption"><span class="border"><!-- <img src="images/slogan.png" width="50%"> -->Dijamin Segernya</span>
 	</div>
 	<span class="glyphicon glyphicon-chevron-down arrow-down"></span>
 	<!-- <script type="text/javascript" src="scripts/parallax.js"></script> -->
