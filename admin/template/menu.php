@@ -2,10 +2,14 @@
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="height:0px">`
     <div class="container-fluid">
         <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav" style="margin-right: 10px">
+            <li><span id="nama-brand">KangIkan</span></li>
+            </ul>
             <a style="padding-top:0px" class="navbar-brand" href="#menu-toggle" id="menu-toggle"><span class="glyphicon glyphicon-list" aria-hidden="true"></span></a>
             <ul class="nav navbar-nav navbar-right">
-                <li><a style="padding-top:0px" href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
-                <li><a style="padding-top:0px" href="#"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Log Out</a></li>
+                <li><span id=tgl-skrg></span></li>
+                <li><a style="padding-top:0px" href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Beranda</a></li>
+                <li><a style="padding-top:0px" href="#"><span class="glyphicon glyphicon-off" aria-hidden="true"></span> Keluar</a></li>
             </ul>
         </div>
     </div>
@@ -20,33 +24,35 @@
                     <br>
                 </li>
                 <li class="sidebar-brand">
-                    <a href="#" class="navbar-brand">
+                    <a href="#" class="navbar-brand" style="margin-right:10px;border:none">
                         <span class="glyphicon glyphicon-user" aria-hidden="true" style="font-size: 20px"> </span> Admin
                     </a>
                 </li>
                 <li>
-                    <a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a>
+                   <a href="#" ><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Beranda</a>
+                </li> 
+                <br>
+                <li id="toggle-menu-data">
+                    <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span><font color="#337AB7"> DATA</font>
                 </li>
-                 <li>
-                    <a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> Data</a>
-                </li>                
-                <li>
-                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span><font color="#337AB7"> STATISTICS</font>
+                <li class="toggle-item child-data">
+                    <a href="#"><span aria-hidden="true"></span> Data Admin</a>
                 </li>
-                <li>
-                    <a href="#"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Reports</a>
+                <li class="toggle-item child-data">
+                    <a href="#"><span  aria-hidden="true"></span>Data Konsumen</a>
                 </li>
-                <li>
-                    <a href="#"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> Statistic</a>
+                <li class="toggle-item child-data">
+                    <a href="#"><span aria-hidden="true"></span>Data Produk</a>
                 </li>
-                <li>
-                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span><font color="#337AB7"> ADMINISTRATION</font>
+                <li class="toggle-item child-data">
+                    <a href="#"><span aria-hidden="true"></span>Data Transaksi</a>
                 </li>
-                <li>
-                    <a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Users</a>
+
+                <li id="toggle-menu-laporan">
+                    <span class="glyphicon glyphicon-file" aria-hidden="true"></span><font color="#337AB7"> Laporan </font>
                 </li>
-              	<li>
-                    <a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Messages</a>
+                <li class="toggle-item child-laporan">
+                    <a href="#"><span  aria-hidden="true"></span> Laporan Pembelian</a>
                 </li>
             </ul>
         </div>

@@ -9,6 +9,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/addons/p5.dom.min.js"></script>
 <!-- Project scripts -->
 <script type="text/javascript" src="scripts/menu.js"></script>
+<script type="text/javascript" src="scripts/idle.js"></script>
 </body>
 <footer style="text-align: center;margin-top: 50px">
 	<em>Copyright &copy; 2018 Alfayolans | Powered by Heroku</em>

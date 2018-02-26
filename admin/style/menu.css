@@ -12,10 +12,10 @@
 
 #sidebar-wrapper {
     position: fixed;
-    left: 250px;
+    left: 180px;
     z-index: 1000;
     overflow-y: auto;
-    margin-left: -250px;
+    margin-left: -180px;
     width: 0;
     height: 100%;
     background: #000;
@@ -64,8 +64,9 @@
     display: block;
     color: #999999;
     text-decoration: none;
-    border-bottom: 1px solid #EEEEEE;
-
+    border-bottom: 1px solid;
+    margin-left:23px;
+    margin-right:23px;
 }
 
 .sidebar-nav li a:hover {
@@ -123,4 +124,53 @@
 .garis{
     margin:0px;
     padding:0px;
+}
+
+#nama-brand {
+    color:white;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: "Arial Black", Gadget, sans-serif;
+    letter-spacing: 2px;
+}
+
+#tgl-skrg {
+    color:white;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.toggle-item {
+    display:none;
+}
+
+#toggle-menu-data {
+    cursor: pointer;
+      -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+#toggle-menu-data:hover{
+     background-color:rgba(255, 255, 255, 0.2);
+     color:white;
+}
+
+#toggle-menu-laporan {
+    cursor: pointer;
+      -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+#toggle-menu-laporan:hover{
+    background-color:rgba(255, 255, 255, 0.2);
+    color:white;
 }
