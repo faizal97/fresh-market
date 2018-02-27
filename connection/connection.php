@@ -7,7 +7,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "db_fresh_market";
+$db = "db_kangikan";
 
 $kon = mysqli_connect($host,$user,$pass,$db);
 

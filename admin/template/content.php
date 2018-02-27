@@ -1,4 +1,4 @@
-            <div class="container-fluid">
+            <div class="container-fluid" style="margin-top: 40px">
             	<?php 
             	if(!isset($_GET['page'])) {
 					$page = 'home';
