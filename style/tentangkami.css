@@ -1,0 +1,29 @@
+#tentangkami-wrapper {
+	margin-top: 80px;
+	margin-bottom:20px;
+}
+#head {
+	color:black;
+	text-shadow:2px 2px 2px white, 5px 5px 10px white;
+	font-size:270%;
+	font-family: Century Gothic;
+	font-weight: bold;
+	text-align: center;
+}
+
+.kotak-box {
+	border:2px solid gray;
+	width:450px;
+	padding-left: 20px;
+	text-shadow: 2px 2px 2px white;
+	color:black;
+}
+
+.ikon {
+	position: static;
+	z-index: -2
+}
+
+#tabel-kami {
+	width:100%;
+}

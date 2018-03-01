@@ -1,13 +1,14 @@
-<div class="panel panel-primary">
+<div class="panel panel-primary" style="padding:10px;margin:10px;margin-left:-30px;width: 105%;">
   <!-- Default panel contents -->
-  <div class="panel-heading">Data Admin</div>
+  <div class="panel-heading" style="font-size: 22pt">Data Konsumen</div>
   <div class="panel-body">
-    <a href=""><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span>Tambah Data</button></a>
+    <a href=""><button type="button" class="btn btn-primary" style="margin-left: -17px"><span class="glyphicon glyphicon-plus"></span>Tambah Data</button></a>
     <button onclick="konfirmasiHapus('admin','all')" type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Hapus Semua</button> <br>
 
-    <label>Cari Data : <input type="text" name="cari"></label>
+    <label style="float:right; margin-right:-10px">Cari Data : <input type="text" name="cari"></label>
+    <br><br>
 <div class="container">
-  <table class="table">
+  <table class="table table-bordered" style="margin-left:-30px;width: 90%">
     <thead>
       <tr>
         <th>No</th>

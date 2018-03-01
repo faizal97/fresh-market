@@ -1,5 +1,5 @@
-<div class="panel panel-primary" style=" margin:20px;padding:20px; width: 260%">
-  <div class="panel-heading"><h2 style="margin:10px">Edit Member</h2></div> <br>
+<div class="panel panel-primary" style="margin-top:20px; width: 100%">
+  <div class="panel-heading"><h2 style="margin:10px">Edit Konsumen</h2></div> <br>
 <div class="container" style="width: 100%">
   <form class="form-horizontal" action="prosesedit.php" method="POST">
     <div class="form-group">

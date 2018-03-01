@@ -3,17 +3,18 @@
   $sql = "SELECT * FROM tb_admin";
   $result = mysqli_query($kon,$sql);
  ?>
-<div class="panel panel-primary">
+<div class="panel panel-primary" style="padding:10px;margin-top:10px;margin-left:-23px;width: 105%;">
   <!-- Default panel contents -->
-  <div class="panel-heading">Data Admin</div>
+  <div class="panel-heading" style="font-size: 22pt">Data Admin</div>
   <div class="panel-body">
-    <a href="?page=tambahadmin"><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-plus"></span>Tambah Data</button></a>
+    <a href="?page=tambahadmin"><button type="button" class="btn btn-primary" style="margin-left: -12px"><span class="glyphicon glyphicon-plus"></span>Tambah Data</button></a>
     <button onclick="konfirmasiHapus('admin','all')" type="button" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Hapus Semua</button> <br>
 
-    <label style="float:right">Cari Data : <input type="text" name="cari"></label>
+    <label style="float:right; margin-right:-11px">Cari Data : <input type="text" name="cari"></label>
+    <br><br>
 <div class="container">
   <!-- Table -->
-  <table class="table">
+  <table class="table table-bordered" style="margin-left: -23px; width: 91%"">
     <thead>
       <tr>
         <th>No</th>

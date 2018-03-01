@@ -1,5 +1,5 @@
-<div class="panel panel-primary" style=" margin:30px;padding:30px; width: 235%">
-  <div class="panel-heading"><h2 style="margin:10px">Tambah Data Member</h2></div> <br>
+<div class="panel panel-primary" style="margin-top:20px;width: 100%">
+  <div class="panel-heading"><h2 style="margin:10px">Tambah Data Konsumen</h2></div> <br>
 <div class="container" style="width: 100%">
   <form class="form-horizontal" action="prosestambah.php" method="POST">
     <div class="form-group">
