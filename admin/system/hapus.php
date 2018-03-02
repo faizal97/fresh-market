@@ -3,26 +3,29 @@ session_start();
 include '../../connection/connection.php';
 include 'sqlcommand.php';
 
-if(!isset($_POST['tipe']) || empty($_POST['tipe'])){
+if(!isset($_GET['tipe']) || empty($_GET['tipe'])){
 echo "Kesalahan pada input data ke sistem";
 echo "<br> Mohon Cek Kembali data yang di proses.";
 exit();
 }
-
-$tipe = $_POST['tipe'];
-
-if($tipe=='admin'){
-	$result = edit_sql($kon,'tb_admin',array('id_admin','user_admin','status_admin'),array($_POST['old_id'],$_POST['username'],$_POST['status']));
+$tipe = $_GET['tipe'];
+$id = $_GET['id'];
+if ($tipe=='admin') {
+	if($id=='all'){
+		$result = hapus_sql($kon,'tb_admin');
+	}
+	else{
+	$result = hapus_sql($kon,'tb_admin','id_admin',$id);
+}
 }
 
 if($result){
-	echo 'Data Telah Terupdate!';
+	echo 'Data Telah Terhapus!';
 	echo "<META http-equiv='refresh' content='1;".$_SESSION['lastpage']."'>";
 }
 else{
-	echo "Data Gagal Terupdate!";
+	echo "Data Gagal Terhapus!";
 	echo "<META http-equiv='refresh' content='1;".$_SESSION['lastpage']."'>";
 }
 
-
-?>
+ ?>

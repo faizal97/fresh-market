@@ -24,16 +24,4 @@
 </div>
 <?php include 'template/footer.php' ?>
 <?php 
-// $salt = bin2hex(openssl_random_pseudo_bytes(64,$cstrong));
-// echo $salt;
-// echo "<br>";
-// $pass = 'studio15';
-// echo $pass;
-// echo "<br>";
-// $salted = $salt . $pass;
-// echo $salted;
-// echo "<br>";
-// $hashed_salt = hash('sha512',$salted);
-// echo $hashed_salt;
-
  ?>

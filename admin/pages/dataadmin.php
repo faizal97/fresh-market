@@ -33,7 +33,7 @@
        <td><?php echo $row['user_admin'] ?></td>
        <td><?php echo $row['status_admin'] ?></td>
        <td><a href="?page=editadmin&user=<?php echo $row['user_admin'] ?>"><button type="button" class="btn btn-info"><span class="glyphicon glyphicon-edit"></span> Edit</button></a>
-       <button id=<?php echo $row['user_admin'] ?> onclick="konfirmasiHapus('admin',this.id)" type="button" class="btn btn-warning"><span class="glyphicon glyphicon-remove"></span> Hapus</button></td></tr>
+       <button id=<?php echo $row['id_admin'] ?> onclick="konfirmasiHapus('admin',this.id)" type="button" class="btn btn-warning"><span class="glyphicon glyphicon-remove"></span> Hapus</button></td></tr>
        <?php 
      }
         ?>
@@ -46,7 +46,7 @@
  function konfirmasiHapus(data,id){
    var konf = confirm("Apakah Anda Yakin Ingin Menghapus ?");
    if(konf==true){
-     window.location.assign("hapus.php?item="+data+"&id="+id);
+     window.location.assign("../admin/system/hapus.php?tipe="+data+"&id="+id);
    }
  }
 </script>

@@ -1,6 +1,7 @@
 <?php 
-  $sql = "SELECT * FROM tb_admin";
+  include 'system/sqlcommand.php';
   $result = mysqli_query($kon,$sql);
+  $row = mysqli_fetch_array($result);
  ?>
 <div class="panel panel-primary" style="margin-top:20px; width: 100%">
   <div class="panel-heading"><h2 style="margin:10px">Edit Admin</h2></div> <br>

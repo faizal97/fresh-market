@@ -1,7 +1,7 @@
 <div class="panel panel-primary" style="margin-top:20px;width: 100%">
   <div class="panel-heading"><h2 style="margin:10px">Tambah Data Admin</h2></div> <br>
 <div class="container" style="width: 100%">
-  <form class="form-horizontal" action="prosestambah.php" method="POST">
+  <form class="form-horizontal" action="system/tambah.php" method="POST">
     <div class="form-group">
       <label class="control-label col-sm-2" for="">Username:</label>
       <div class="col-sm-10">
