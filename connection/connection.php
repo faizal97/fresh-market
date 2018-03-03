@@ -15,5 +15,4 @@ if(!$kon){
 			echo "Server Maintenance";
 			exit();
 }
-echo "ha";
 ?>
