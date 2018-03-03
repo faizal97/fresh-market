@@ -13,8 +13,8 @@ function edit_sql($kon,$table,$arr_data,$arr_dataValue){
  	$sql .= $arr_data[$i]."='".$arr_dataValue[$i]."'";
  }
  $sql .= " WHERE ".$arr_data[0]."='".$arr_dataValue[0]."'";
-return mysqli_query($kon,$sql);
-}
+return mysqli_query($kon,$sql);}
+
 // FUNCTION TAMPIL DATA
 function show_sql($table,$sort='',$by='',$primary='',$primaryValue='',$likeData='',$limitStart='',$limitData=''){
 $sql = "SELECT * FROM ".$table;
