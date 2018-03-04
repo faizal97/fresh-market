@@ -1,10 +1,10 @@
 <link rel="stylesheet" type="text/css" href="style/login.css">
-<div id="id01" class="modal">
-  
+<div id="id01" class="modal" role="dialog">
+  <div class="modal-dialog">
   <form class="modal-content animate">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="avatar.png" alt="Avatar" class="avatar">
+      <img src="images/avatar.png" width="200px" height="200px" alt="Avatar" class="avatar">
     </div>
      <div class="input-group">
      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -23,13 +23,13 @@
       </label>
     </div>
 
-    <div class="container" style="background-color:#f1f1f1">
+    <div class="container" style="background-color:#f1f1f1;width:470px">
       <button type="button" class="btn btn-danger"onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Batal</button>
       <span class="psw">Lupa <a href="#">Kata Sandi?</a></span>
     </div>
   </form>
 </div>
-<p>Belum punya akun? <a href="#"> daftar disini </p>
+</div>
 <script>
 // Get the modal
 var modal = document.getElementById('id01');

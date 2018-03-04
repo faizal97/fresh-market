@@ -1,4 +1,4 @@
- <link rel="stylesheet" type="text/css" href="style/menu.css">
+<link rel="stylesheet" type="text/css" href="style/menu.css">
 
  <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom">
   <!-- <img id="header" src="images/navbar.png" width="100%"> -->
@@ -36,8 +36,8 @@
       </div>
     </li>
     <li><a href="#" style="padding:0px"><img src="images/cart.png" width="50px" height="50px"></a></li>
-    <li><a href="#" class="custom-menu">MASUK</a></li>
- 	  <li><a href="#" class="custom-menu">DAFTAR</a></li>
+    <li><a href="#" class="custom-menu" data-toggle="modal" data-target="#id01">MASUK</a></li>
+ 	  <li><a href="#" class="custom-menu" data-toggle="modal" data-target="#id02">DAFTAR</a></li>
   </ul>
   </div>
 </nav>
